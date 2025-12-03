@@ -225,7 +225,7 @@ function Header() {
             </Link>
           ))}
         </nav>
-        <ShinyButton href="https://t.co/WMiU1WN8ow">Apply</ShinyButton>
+        <ShinyButton href="https://forms.cloud.microsoft/r/sAbE4yf1te">Apply</ShinyButton>
       </div>
     </header>
   );
@@ -243,7 +243,7 @@ function Hero() {
 
   useEffect(() => {
     // Set your registration end date (UTC or local)
-    const targetDate = new Date("2025-11-14T11:59:59Z"); // midnight UTC on Nov 12
+    const targetDate = new Date("2025-12-09T11:59:59Z"); // midnight UTC on Nov 12
 
     const interval = setInterval(() => {
       const now = new Date();
@@ -311,7 +311,7 @@ function Hero() {
 
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <ShinyButton
-                href="https://t.co/WMiU1WN8ow"
+                href="https://forms.cloud.microsoft/r/sAbE4yf1te"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -336,7 +336,7 @@ function Hero() {
           >
             <div className="pointer-events-none absolute -translate-y-1/2 top-1/2 -translate-x-1/2 left-1/2 hidden h-28 w-28 rounded-2xl bg-[var(--lime)]/60 blur-2xl md:block" />
               <img
-                src="https://res.cloudinary.com/dnafhcsfp/image/upload/v1762438800/hero_dxxnal.png"
+                src="https://res.cloudinary.com/dnafhcsfp/image/upload/v1764507564/hero-min_ezim7z.png"
                 alt="Hero visual"
                 className="w-full h-full object-contain scale-[1.4] md:scale-[1.3]"
               />
@@ -524,7 +524,7 @@ function AboutSupport() {
             ))}
           </ul>
           <div className="mt-6">
-            <ShinyButton href="https://t.co/WMiU1WN8ow">
+            <ShinyButton href="https://forms.cloud.microsoft/r/sAbE4yf1te">
               Start your application
             </ShinyButton>
           </div>
@@ -537,7 +537,7 @@ function AboutSupport() {
                   Over
                 </div>
                 <div className="text-5xl font-black text-[var(--lime)]">
-                  $1 M+
+                  $1.3 M+
                 </div>
 
                 <div className="mt-1 text-sm text-zinc-400">
@@ -553,7 +553,7 @@ function AboutSupport() {
                   Over
                 </div>
                 <div className="text-5xl font-black text-[var(--lime)]">
-                  600 K+
+                  700 K+
                 </div>
 
                 <div className="mt-1 text-sm text-zinc-400">
@@ -659,7 +659,7 @@ function JoinPaths() {
       t: "Direct Application Path",
       d: "Missed the hackathon but ready to launch? Apply → shortlist → interview → Sprint.",
       a: "Apply now",
-      href: "https://t.co/WMiU1WN8ow",
+      href: "https://forms.cloud.microsoft/r/sAbE4yf1te",
       img: "/direct-appln.svg",
     },
   ];
@@ -871,7 +871,7 @@ function FinalCTA() {
               </p>
             </div>
             <div className="md:justify-self-end">
-              <ShinyButton href="https://t.co/WMiU1WN8ow">
+              <ShinyButton href="https://forms.cloud.microsoft/r/sAbE4yf1te">
                 Apply for Hack2Launch
               </ShinyButton>
             </div>
