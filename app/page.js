@@ -765,7 +765,7 @@ function FAQ() {
     },
     {
       q: "What’s the program fee?",
-      a: "Mentorship and launch support require a 5% token allocation to DcodeBlock to align incentives for long‑term growth.",
+      a: "Mentorship and launch support require a 3-4% token allocation to DcodeBlock to align incentives for long‑term growth.",
     },
     {
       q: "What kind of support do I receive?",
